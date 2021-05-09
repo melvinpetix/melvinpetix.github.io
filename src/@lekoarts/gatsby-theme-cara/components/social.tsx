@@ -3,15 +3,13 @@ import { useColorMode, jsx } from "theme-ui";
 import {
 	FaGithub,
 	FaLinkedinIn,
-	FaRegEnvelope,
-	FaMediumM,
+	FaRegEnvelope
 } from "react-icons/fa";
 
 type SocialProps = {
     email:string,
     github:string,
-    linkedin:string,
-    medium:string
+    linkedin:string
   }
 
 const Social = ({...props}: SocialProps) => {
