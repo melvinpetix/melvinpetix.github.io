@@ -17,7 +17,6 @@ const Social = ({...props}: SocialProps) => {
 		[<FaRegEnvelope sx={{height:`3em`, width:`3em`}}/>, props.email],
 		[<FaGithub sx={{height:`3em`, width:`3em`}}/>, props.github],
 		[<FaLinkedinIn sx={{height:`3em`, width:`3em`}}/>, props.linkedin],
-		[<FaMediumM sx={{height:`3em`, width:`3em`}}/>, props.medium],
 	];
 	const [colorMode, setColorMode] = useColorMode();
 	const icons: JSX.Element[] = component.map((icon, index) => {
