@@ -36,11 +36,7 @@ jobs:
       # Install package
       - name: curl command
         run: curl -X POST -H 'Content-Type: application/json' -d '{"text": "'" **** `date +%D`  -   **_$(TZ=ASIA/MANILA date +'%Y%m%d')_** MNL  "'"}' https://hooks.slack.com/services/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;
-             curl -X POST -H 'Content-Type: application/json' -d '{"text": "'" **** `date +%D`  -   **_$(TZ=ASIA/MANILA date +'%Y%m%d')_** MNL  "'"}' https://hooks.slack.com/services/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;
-             curl -X POST -H 'Content-Type: application/json' -d '{"text": "'" **** `date +%D`  -   **_$(TZ=ASIA/MANILA date +'%Y%m%d')_** MNL  "'"}' https://hooks.slack.com/services/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;
-             curl -X POST -H 'Content-Type: application/json' -d '{"text": "'" **** `date +%D`  -   **_$(TZ=ASIA/MANILA date +'%Y%m%d')_** MNL  "'"}' https://hooks.slack.com/services/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
-        
-        
+            
       # Install package
       - name: Run npm install
         run: npm install
